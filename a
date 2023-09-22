@@ -1,0 +1,55 @@
+
+let bisnesman = [
+     
+     {
+     	name: "alisher",
+     	type: "tikuvsehi",
+     	price: 100000,
+     	soni:1000,
+     	Daromad: function() {
+     		this.price*this.soni
+     	} 
+     }, 
+     {
+     	name: "abdulaziz",
+     	type: "novvoyxona",
+     	price: 2500,
+     	soni:250,
+     	Daromad: function() {
+     		this.price*this.soni
+     	} 
+     },
+     {
+     	name: "muhammadaziz",
+     	type: "bogbon",
+     	price: 120000,
+     	soni:100,
+     	Daromad: function() {
+     		this.price*this.soni
+     	} 
+     },
+     {
+     	name: "sirojiddin",
+     	type: "sotuvchi",
+     	price: 12,
+     	soni:1000,
+     	Daromad: function() {
+     		this.price*this.soni
+     	} 
+     },
+     {
+     	name: "qodirali",
+     	type: "dehqon",
+     	price: 500,
+     	soni:10000,
+     	Daromad: function() {
+     		this.price*this.soni
+     	} 
+     }
+
+]
+for(let i = 1; i<bisnesman.length+1; i++){
+    let k = ' ';
+	k += 1;
+	console.log(k)
+}
