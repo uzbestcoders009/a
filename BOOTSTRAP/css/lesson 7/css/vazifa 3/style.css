@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.box {
+	background-image: url(https://storge.pic2.me/w/560x350/342/5f8f4e67489155.52371111.webp);
+	background-size: cover;
+	height: 1000px;
+    background-position:center;  
+    background-attachment: fixed;
+    color: yellow;
+    font-size: 50px;
+    
+}
+ .color {
+ 	background-image: url(https://xs.uz/upload/post/2021/01/05/c0012028277995387dbf06ad1ca910650106.jpg);
+}
+ .red {
+ 	background-image: url(https://slevomat.sgcdn.cz/images/t/728x364c/99/50/9950870-e53d45.jpg);
+ }
+ .blue {
+ 	background-image: url(https://www.vosmer.com.tr/wp-content/uploads/2019/09/porsche.jpg);
+ }
+ .green {
+ 	background-image: url(https://sales.mercedes-kanavto.ru/image/cache/catalog/data/16527103277123288-1920x650_crop.jpg);
+ }
+ .grey {
+ 	background-image: url(https://images.hindustantimes.com/auto/auto-images/Lamborghini/Huracan-sto/lamborghini%20huracan-sto-600x400.jpg);
+ }
+ .pink {
+ 	background-image: url(https://image.cnbcfm.com/api/v1/image/102251961-1.jpg?v=1418141376);
+ }
+ .black {
+ 	background-image: url(https://hdpic.club/uploads/posts/2021-12/1640246196_2-hdpic-club-p-mersedes-gelik-brabus-4.jpg);
+ }
+

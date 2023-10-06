@@ -1,0 +1,15 @@
+.box {
+	width: 1000px;
+	height: 200px;
+	background: red;
+
+	border-top: 4px solid green;
+   /* border-bottom: 4px solid green;
+    border-left: 4px solid yellow;*/
+    border-right: 4px solid yellow;
+
+    border-top-left-radius: 100px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 400px;
+}

@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.box {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	margin: 5px;
+	background: radial-gradient(#eb6399 1%, #c70a56 70%);
+	/*background: conic-gradient(#9457EB 20deg ,#A54698 60deg, #A5081F 100deg, #A53615 110deg, #FFCE2C 160deg, #3FFF3C 200deg, #00C7FF 280deg, blue 300deg,  #9457EB);*/
+	/*background: linear-gradient(120deg, #FFA69E 10%, #861657 70%);*/
+}

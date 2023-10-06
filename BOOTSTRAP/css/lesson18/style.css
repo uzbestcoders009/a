@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box {
+	width: 1000px;
+	aspect-ratio: 1/1;
+	margin: 100px;
+	
+	/*background: linear-gradient(130deg, #f50505 40% , #f5bd05 60% );*/
+	/*background: conic-gradient( from 120deg at 30% 80%, #f50505 80deg, #f5bd05 200deg, #3df505 300deg, royalblue 340deg);*/
+/*	background: conic-gradient(,#f50505 80deg, #f5bd05 200deg, #3df505 300deg, royalblue 340deg);*/
+    background: repeating-radial-gradient(red 20%, blue 80%);
+}
+/*mix-blend-mode: difference;*/

@@ -1,0 +1,27 @@
+
+.bir {
+	width: 100vw;
+	height: 100vh;
+	background-image: url('https://idsb.tmgrup.com.tr/ly/uploads/images/2020/11/25/thumbs/800x531/74707.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.boxo {
+	width: 100%;
+	height: 40px;
+	background: lightblue;
+
+}
+.bot {
+	width: -100%;
+	height: 70%;
+}
+#asd {
+	display: none;
+}
+#asd + label +label > .bot {
+	width: 100%;
+	height: 70%;
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYaQi-28J26Ld3GbrHsjYQHaUWWZfZ8jwNMHpyoFNK6-z6Jid1KpFtF-bNMJL41bMzpmg&usqp=CAU);
+}

@@ -1,0 +1,30 @@
+.box {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	background: red;
+	border-radius: 50%;
+	/*animation-name: box;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-deley: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;*/
+	animation: box 1s linear infinite alternate;
+	/*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+}
+
+@keyframes box {
+	0% {
+        left: 100px;
+        border-radius: 50%;
+	}
+	50% {
+		border-radius: 10%;
+		background: #000;
+	}
+	100% {
+		left: 500px;
+		border-radius: 10%;
+	}
+}

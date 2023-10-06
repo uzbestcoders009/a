@@ -1,0 +1,15 @@
+ @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&family=Rubik+Distressed&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&family=Rubik+Distressed&family=Silkscreen&display=swap');
+ 
+ @font-face {
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Silkscreen', cursive;
+}
+h1 {
+   font-size: 100px;
+   font-family: 'Rubik Distressed', cursive;
+}
+h2 {
+   font-size: 100px;
+   font-family: 'Rubik Distressed', cursive;
+}

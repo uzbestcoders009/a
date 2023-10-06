@@ -1,0 +1,60 @@
+body {
+	background: #FF5842;
+}
+
+
+.container {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	border: 6px solid white;
+	position: relative;
+}
+.circle {
+	width: 99%;
+	height: 99%;
+	position: absolute;
+	border-radius: 50%;
+	animation: box 3s linear infinite ;
+    
+}
+
+.r {
+	width: 99%;
+	height: 99%;
+	position: absolute;
+	border-radius: 50%;
+    animation: box  linear infinite ;
+	top: -2px;
+}
+.box {
+	width: 50%;
+	height: 6px;
+	background: white;
+	top: 250px;
+	position: relative;
+}
+.bek {
+	top: 245px;
+	width: 48%;
+	margin: 7px;
+}
+/*.bekor {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	border-radius: 50%;
+	background: white;
+	left: 239px;
+	top: 239px;
+}*/
+
+
+
+@keyframes box {
+	100% {
+		
+	   transform: rotate(360deg);
+	}
+	
+}

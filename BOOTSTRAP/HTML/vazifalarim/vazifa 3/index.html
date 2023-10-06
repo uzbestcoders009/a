@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<th>Invoice#123456789</th>
+			<th>14 Junnary 2025</th>
+			<th>NUM</th>
+		</tr>
+		<tr>
+			<td>Pay to: <br> Acne Biling Co <br>123 Main ST <br>Cityvile,NA12345</td>
+			<td colspan="2">Customer: <br>john smith <br>321 wailow way</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>"name/ desicription</td>
+			<td>1</td>
+			<td>@ </td>
+			<td colspan="2">Cost</td>
+			<td>1</td>
+		</tr>
+	</table>
+
+	<script>
+		
+		let arr = []
+		let k = 0;
+		let isEqual = true;
+		let a = 0;
+
+		while(k<10){
+			a = Math.round(Math.random()* 9 + 1)
+			
+			for(let i=0;i<arr.length;i++){				
+				if(a == arr[k]){
+					isEqual = false
+				}
+			}
+
+			if(isEqual){
+				arr[k] = a
+				k++
+			}
+		}
+		console.log(arr)
+	</script>
+</body>
+</html>

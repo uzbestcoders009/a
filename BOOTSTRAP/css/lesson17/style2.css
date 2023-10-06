@@ -1,0 +1,46 @@
+/*body {
+	background: #000;
+}
+h1 {
+	font-size: 40px;
+	text-shadow: 0px 0px 2px red,
+	             0px 0px 4px red,
+	             0px 0px 6px red,
+	             0px 0px 8px red,
+	             0px 0px 10px red,
+	             0px 0px 12px red;
+    position: absolute;
+    left: 100px;
+    color: #fff;
+    top: 100px;
+
+}
+.box {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin: 200px;
+	box-shadow: 0px 0px 10px 1px red,
+				0px 0px 10px 1px red,
+				0px 0px 10px 1px red inset,
+				0px 0px 10px 1px red inset;
+padding: 10px;
+
+}*/
+body {
+background: #DDE1E7;
+}
+.box {
+	width: 400px;
+	height: 400px;
+	margin: 50px;
+	display: inline-block;
+	
+	box-shadow:-4px -4px 6px 4px  #faf2f2,
+	            4px 4px 6px 3px #CCD0D9;
+	border-radius: 40px;    
+}
+.inset {
+	box-shadow: -4px -4px 6px 4px #faf2f2 inset,
+	            2px 4px 6px 3px #CCD0D9 inset;
+}

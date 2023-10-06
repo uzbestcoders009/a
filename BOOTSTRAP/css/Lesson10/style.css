@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	padding: 10px;
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXIOdJpuPkFhqJGA4xtMfVdXIwsuZBmwOm6g41vDBUUiKo-5gjLUl71Yaw0hW6IC1dOu4&usqp=CAU');
+	background-repeat: no-repeat;
+	background-size: 30px 40px cover;
+	background-position: top right;
+    background-attachment: fixed;
+}
+.colored-box {
+	width: 200px;
+	height: 300px;
+	background-color: #67645;
+} 
+.text-color {
+	color: lightblue;
+	font-size: 40px;
+	text-align: center;
+}
+.image-box {
+	width: 450px;
+	height: 400px;
+	border: 2px solid red;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1SRsQvyO1VEQW1g5pFgX2pGhR8CR1AYufI5Od4XwRb0MwAP9DhyRy-TOO6bPYrJ88UEI&usqp=CAU);
+	background-position: cover;
+	background-size: 50% 50% ;
+	background-repeat: repeat-y;
+	
+}
+
+.background-attachment{
+	width: 90vw;
+	height: 100vh;
+	border: 20px solid blue;
+	margin: auto;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1SRsQvyO1VEQW1g5pFgX2pGhR8CR1AYufI5Od4XwRb0MwAP9DhyRy-TOO6bPYrJ88UEI&usqp=CAU);
+	background-position: right top;
+	background-size: 50% 50% ;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.lorem-text {
+	color: green;
+	font-size: 40px;
+}
+
+.incommon {
+	width: 600px;
+	height: 400px;
+	background: #399444 url(https://yt3.ggpht.com/BqRX32swqP4cNXjww8U8c4u_resRwz2aTkBkVkqsDXi9oHoLAvJalk_wUyMQKOeftdWGwvD5TbQ=s900-c-k-c0x00ffffff-no-rj);
+	margin: auto;
+}

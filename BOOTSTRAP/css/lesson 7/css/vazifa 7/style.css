@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.box {
+	width: 98%;
+	height: 100px;
+	margin: 7.5px;
+	display: inline-block;
+	background: green;
+
+}
+.bir {
+	width: 400px;
+	height: 500px;
+	background: blue;
+}
+.ikki {
+	width: 650px;
+	height: 500px;
+	background: yellow;
+}
+.uch {
+	width: 400px;
+	height: 500px;
+}

@@ -1,0 +1,30 @@
+body {
+	width: 100vw;
+	height: 100vh;
+}
+.color {
+    width: 1200px;
+	height:100px;
+	font-size: 40px;
+}
+.red{
+	background: #F1350D;
+}
+.green {
+	background: #F07427;
+}
+.Orange {
+    background: #00a4db;
+}
+.pink {
+     background: #04b048;
+}
+.blue {
+	 background: #787575;
+}
+.grey {
+     background: #4824bd;
+}
+.black{
+     background: #c257b2;
+}

@@ -1,0 +1,41 @@
+/*.box {
+	
+  width: 500px;
+  height: 500px;
+  background: red;
+  position: absolute;
+  z-index: 2;
+}
+.box1 {
+	left: 100px;
+	top: 100px;
+	background:grey ;	
+    z-index: 1;
+}*/
+
+/*.box {
+  width: 1000px;
+  height: 100vh;
+  background: red;
+  position: relative;
+  overflow: hidden;
+}
+.under {
+	position: absolute;
+	left: calc(50% - 100px);
+	top: calc(50% - 100px);
+	width: 200px;
+	height: 200px;
+	background: green;
+}	*/
+.box {
+	position: sticky;
+	left: 100px;
+	top: 100px;
+    background: green;
+}
+position: absolute;
+position: relative;
+position: sticky;
+position: fixed;
+position: static;

@@ -1,0 +1,64 @@
+/*.box {
+    width: 800px;
+	height: 100px;
+    background: green;
+    margin: 10px;
+}*/
+/*.box:nth-child(odd) {
+	background: royalblue;
+}
+.box:nth-child(even ) {
+	background: yellow;*/
+/*.box:nth-child(-n+5){
+	background: green;
+}*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.lin {
+	width: 100vw;
+	height: 100vh;
+	background-image: url();
+}
+
+.links {
+	position: absolute;
+	top: 100px;
+	left: 0;
+    width: 100vw;
+    height: 90vh;
+    background-image: url(https://idsb.tmgrup.com.tr/ly/uploads/images/2020/11/25/thumbs/800x531/74707.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+}
+nav {
+	width: 100vw;
+	height: 60px;
+	background: blue;
+}
+
+
+}
+
+.links {
+	display: block;
+}
+
+input:checked + label + label > .links {
+	width: 100%;
+	height: 92%;
+	background: blue;
+	display: none;
+
+}
+
+.toggle  {
+	width: 100px;
+	height: 100px;
+	background: red;
+}
