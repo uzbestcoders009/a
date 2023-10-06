@@ -1,0 +1,51 @@
+/* SELECTOR */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Arial;
+}
+
+.app-container {
+ /* orqa fonga rang beruvchi property */
+ background-color: #0B0E21; /* 0123456789ABCDEF */
+ /* balandlik */
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.counter-panel {
+ background-color: #252628;
+ text-align: center;
+ padding: 60px 40px;
+ border-radius: 30px;
+}
+
+.counter-panel > p {
+ color: #2375B4;
+ font-size: 3rem;
+}
+
+.counter-panel > h1 {
+ font-size: 6rem;
+ color: #FFFFFF;
+}
+
+.action button {
+ font-size: 4rem;
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+ background-color: #4C4F5E;
+ border: none;
+ outline: none;
+ color: #FFFFFF;
+ margin: 10px;
+ cursor: pointer;
+}
+
+.action button:hover {
+ box-shadow: 1px 1px 20px #111111;
+}
